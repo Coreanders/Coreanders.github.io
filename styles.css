@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(rgb(35, 48, 73),
+            rgb(12, 18, 27));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+#welcome {
+    margin-top: 20%;
+    text-align: center;
+}
