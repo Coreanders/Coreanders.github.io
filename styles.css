@@ -1,7 +1,14 @@
+/* comment this out, for testing purposes */
+/* * {
+    border: 1px solid white;
+    box-sizing: border-box;
+} */
+
 body {
     background: linear-gradient(rgb(35, 48, 73),
             rgb(12, 18, 27));
     height: 100%;
+    width: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,6 +16,18 @@ body {
 }
 
 #welcome {
-    margin-top: 20%;
+    position: relative;
+    margin: 0 auto;
+    top: 40vh;
+    bottom: 40vh;
+    max-width: 20rem;
+    min-width: 10rem;
+    padding: 10px;
     text-align: center;
+    background: repeating-linear-gradient(-35deg,
+            rgba(192, 192, 192, 0.2),
+            rgba(192, 192, 192, 0.2) 2px,
+            rgba(56, 56, 56, 0.3) 2px,
+            rgba(56, 56, 56, 0.3) 6px);
+    border-radius: 7%;
 }
