@@ -39,3 +39,11 @@ a:link {
 a:hover {
     color: rgb(148, 148, 148)
 }
+
+a:visited {
+    color: gray;
+}
+
+a:active {
+    color: steelblue;
+}
