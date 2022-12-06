@@ -9,8 +9,8 @@
     <meta name="description" content="Corey Regan's main project site">
     <meta name="keywords" content="Portfolio, Developer, Application, Indianapolis">
     <meta name="author" content="Corey Regan">
-    greensock, for easier animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script> -->
+    <!-- greensock, for easier animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
     <script src="greensock.js" defer></script>
 </head>
 
